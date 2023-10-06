@@ -1,6 +1,6 @@
 module.exports = {
-  title: "个人博客", //标题
-  description: "前端开发 个人博客",
+  title: "Steryn blog", //标题
+  description: "Welcome!",
   head: [["link", { rel: "icon", href: "/favicon.ico" }]],
   serviceWorker: true,
   repo: "https://github.com/steryn/blog.git", //仓库地址

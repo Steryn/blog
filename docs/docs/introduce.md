@@ -1,4 +1,4 @@
-## 正则
+# 正则
 
 ## RegExp 对象方法
 
@@ -9,9 +9,9 @@
 test() 方法用于检测一个字符串是否匹配某个模式，
 如果字符串中含有匹配的文本，则返回 true，否则返回 false。
 
-```
-var patt = /e/;
-patt.test("The best things in life are free!");
+```js
+var reg = /e/;
+reg.test("The best things in life are free!");
 // true
 ```
 
@@ -38,10 +38,10 @@ exec() 方法用于检索字符串中的正则表达式的匹配。
 
 在字符串内检索指定的值，或找到一个或多个正则表达式的匹配。
 
-```
-var str="The rain in SPAIN stays mainly in the plain";
-var n=str.match(/ain/g);
-ain,ain,ain
+```js
+var str = "The rain in SPAIN stays mainly in the plain";
+var n = str.match(/ain/g);
+ain, ain, ain;
 ```
 
 :::warning
@@ -52,14 +52,14 @@ ain,ain,ain
 
 外架子
 
-```
-function isDecimal(strValue )  {
+```js
+function isDecimal(strValue) {
   //插入
-  return  objRegExp.test(strValue);
+  return objRegExp.test(strValue);
 }
 ```
 
-```
+```js
 <!-- n位的数字 -->
 var reg=/^\d{n}$/;
 
