@@ -1,16 +1,11 @@
 <template>
-  <div>
-    模板
-  </div>
+  <div>模板</div>
 </template>
 
 <script>
-  export default {
-    name:'Layout'
-    
-  }
+export default {
+  name: "Layout",
+};
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

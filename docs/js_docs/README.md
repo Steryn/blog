@@ -30,9 +30,9 @@
 
 ```js
 export default {
-  name: 'MyComponent',
+  name: "MyComponent",
   // ...
-}
+};
 ```
 
 ### :star2:高亮代码块
@@ -41,13 +41,14 @@ export default {
 export default {
   data() {
     return {
-      msg: 'Highlighted!',
-    }
+      msg: "Highlighted!",
+    };
   },
-}
+};
 ```
 
 ### :star2:表情
+
 [emoji href](https://www.webfx.com/tools/emoji-cheat-sheet/)
 
 :tada: :100:

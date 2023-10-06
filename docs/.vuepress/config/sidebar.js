@@ -1,23 +1,23 @@
 module.exports = {
-  '/docs/': [
+  "/docs/": [
     {
-      title: '文档',
+      title: "文档",
       collapsable: false,
-      children: [{ title: '介绍', path: '/docs/introduce' }],
+      children: [{ title: "介绍", path: "/docs/introduce" }],
     },
   ],
-  '/js_docs/': [
+  "/js_docs/": [
     {
-      title: '目录',
+      title: "目录",
       collapsable: false,
-      children: [{ title: '指南', path: '/js_docs/guide' }],
+      children: [{ title: "指南", path: "/js_docs/guide" }],
     },
   ],
-  '/css_docs/': [
+  "/css_docs/": [
     {
-      title: '目录',
+      title: "目录",
       collapsable: false,
-      children: [{ title: '启航', path: '/css_docs/guide' }],
+      children: [{ title: "启航", path: "/css_docs/guide" }],
     },
   ],
   // '/css_docs/': [],
@@ -25,4 +25,4 @@ module.exports = {
   // '/react_docs/': [],
   // '/2021/6/': [],
   // '/2021/7/': [],
-}
+};
